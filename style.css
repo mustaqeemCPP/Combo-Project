@@ -125,7 +125,8 @@ body {
 /* Hero section styles */
 
 main {
-  position: relative;
+  /* position: relative; */
+  width: 100%;
 }
 
 #hero {
@@ -163,7 +164,7 @@ main {
 #sect-two-img {
   max-width: 80%;
   width: 100%;
-  position: absolute;
+  position: absolute; 
   top: 60rem;
   left: 10%;
 }
@@ -406,6 +407,14 @@ width: 100%;
 
     }
 
+    .sect5-heading {
+      font-size: 3.5rem;
+      color: var(--text-color2);
+      font-weight: 510;
+      letter-spacing: 0.3px;
+      margin-bottom: 2rem;
+    }
+
     .sect-five-p {
         max-width: 500px;
         width: 100%;
@@ -646,7 +655,7 @@ gap: 8rem;
   padding-inline: 9.6rem;
   display: flex;
   justify-content: space-between;
-  color: var(--text-color);
+  color: var(--inactive-color);
   margin-bottom: 4rem;
 
   div {
@@ -667,6 +676,7 @@ p {
     /* color: #313132; */
   }
 }
+
 /* Animation Test */
 
  .animetest {
@@ -685,3 +695,5 @@ p {
         transform: rotate(360deg);
     }
  }
+
+ 

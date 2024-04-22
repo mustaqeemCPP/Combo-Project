@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+  }
+  
+  a {
+      display: inline-block;
+  }
+  
+  /* Styles & Components */
+  
+  :root {
+    --primary-color: #07b40d;
+    --primary-color2: #22a026;
+    --secondary-color: #141b14;
+    --accent-color: #0f3610;
+    --accent-color2: #FCFDFC;
+    --bg-color: #F5F6F5;
+    --inactive-color: #bbbbbb;
+    --text-color: white;
+    --text-color2: #1e1e1e;
+    --text-color3: #4f4f4f;
+    --text-color4: #303030;
+  }
+
+#header-sect {
+    padding: 2.6rem 9.6rem;
+    background-color: var(--secondary-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    max-width: 100vw;
+    width: 100%;
+    }
+    
+    .mb-nav {
+      display: none;
+    }
+    
+    .nav-links-mb {
+      display: none;
+    }
+    
+    
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+      }
+    
+      .header-logo {
+        max-width: 13rem;
+      }
+    
+      .nav-links-grp {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 35rem;
+        width: 100%;
+        
+      
+       > li {
+          list-style-type: none;
+        
+          > a {
+            text-decoration: none;
+            font-weight: 350;
+            color: var(--inactive-color);
+            width: 100%;
+          }
+    
+          > a:hover {
+            color: var(--text-color);
+            transform: scale(1.02);
+        }
+        }  
+      }
+    
+      .nav-btn {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        max-width: 21rem;
+        width: 100%;
+      
+       > li {
+          list-style-type: none;
+      
+          > a {
+            text-decoration: none;
+            margin-left: 2.4rem;
+            color: var(--text-color);
+          }
+      
+          > .btn1 {
+            padding: 1rem;
+            border: 1px solid var(--text-color);
+            border-radius: 4px;
+            display: inline-block;
+          }
+          > .btn1:hover {
+            background-color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+          }
+        }
+      }

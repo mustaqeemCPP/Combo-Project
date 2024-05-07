@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="media_q.css">
     <link rel="stylesheet" href="./font/css/cabinet-grotesk.css">
     <script src="https://kit.fontawesome.com/0b21860e76.js" crossorigin="anonymous"></script>
-    <title>Test</title>
+    <title>Combo Project</title>
 </head>
 <body>
-    <!-- Header -->
+
+    <!-- Header & Navigation Bar -->
     <header id="header-sect">
         <nav>
             <img src="./LP_images/COMBO-logo.svg" alt="Combo-logo" class="header-logo">
@@ -25,10 +26,12 @@
               <li><a href="#" class="btn1">Get a Demo</a></li>
             </ul>
         </nav>
+
+        <!-- Mobile & Tablet view Nav Bar -->
         <nav class="mb-nav">
           <img src="./LP_images/COMBO-logo.svg" alt="Combo-logo" class="header-logo">
           <div class="hamburger-menu">
-            <button class="hamburger-button"> ☰ </button>
+            <button class="hamburger-button"><img src="./LP_images/menu.svg" alt=""></button>
           </div>
         </nav>
         <div class="nav-links-mb">
@@ -44,16 +47,23 @@
           </ul>
         </div>
       </header>
+
       <!-- Main Page -->
       <main>
-        <section id="hero">
+
+        <!-- Hero section -->
+        <section id="hero" class="animatehero">
             <h1>Move team productivity forward with COMBO</h1>
             <p>Manage team projects, reach new productivity peaks and collaborate effeciently with all the project management tools you need.</p>
             <button class="btn2 hero-btn">Get Started - it's free <i class="fa-solid fa-arrow-right"></i> </button>
           </section>
+
+          <!-- Section two - Full image -->
           <section id="section-two">
             <img src="./LP_images/sect_two_img.svg" alt="Happy workers" class="sect-two-img">
         </section>
+
+        <!-- Section three - Trust companies -->
         <section id="section-three">
             <div class="sect-three-container">
               <div class="customers">
@@ -65,7 +75,11 @@
                       <p>Join over 7,000 productive teams worldwide using COMBO</p>
             </div>
           </section>
+
+          <!-- Section Four - Main container for Benefits & Features -->
           <section id="section-four">
+
+            <!-- Features -->
             <div class="sect-four-container1">
               <div class="sect-four-col">
                 <p class="sect-tag">Benefits</p>
@@ -82,6 +96,8 @@
                         <img src="./LP_images/sect_four_img.svg" alt="section image" class="animetest">
                       </div>
             </div>
+
+            <!-- Benefits -->
             <div class="sect-four-container2">
                 <div class="sect-four-col2a">
                   <img src="./LP_images/sect_four_img2.svg" alt="feature-image">
@@ -94,6 +110,8 @@
          <a href="#" class="btn3">Learn more<i class="fa-solid fa-plus"></i></a>
                   </div>
               </div>
+
+              <!-- Benefits -->
               <div class="sect-four-container3">
                 <div class="sect-four-col3a">
                   <p class="sect-tag">Features</p>
@@ -107,17 +125,22 @@
                   </div>
               </div>
         </section>
+
+        <!-- Section five - More features of product -->
         <section id="section-five">
             <p class="sect-tag sect-five-tag">Integrate your tools</p>
             <h2 class="sect5-heading">All the tools your team needs</h2>
             <p class="sect-five-p" id="sct5navgrid">Deliver project of all sizes. on time, using one project planning software with all the right tools in one place.</p>
-              <ul id="sect5nav-grid">
+            <!-- Grid for menu -->
+            <ul id="sect5nav-grid">
                 <li><a href="#sct5navgrid" class="sect5-nav">PLAN</a></li>
                 <li><a href="#sct5navgrid" class="sect5-nav">COLLABORATE</a></li>
                 <li><a href="#sct5navgrid" class="sect5-nav">ORGANIZE</a></li>
                 <li><a href="#sct5navgrid" class="sect5-nav">DELIVER</a></li>
                 <li><a href="#sct5navgrid" class="sect5-nav">MORE</a></li>
               </ul>
+
+              <!-- Section five - Grid layout for cards  -->
               <div id="sect5-grid2">
                 <div class="tools-col">
                   <div class="col-flex">
@@ -126,7 +149,8 @@
                   </div>
       <p>Assign tasks, filter and view data based on priority, and keep essential detail front and center.</p>
                 </div>
-                <div class="tools-col"><div class="col-flex">
+                <div class="tools-col">
+                  <div class="col-flex">
                   <img src="./LP_images/icon-2.svg" alt="icon" class="sect5-icon">
                   <p>Kanban boards</p> 
                 </div>
@@ -154,10 +178,21 @@
               </div>
               <button class="sect-btn sect5-btn">Get Started - it's free <i class="fa-solid fa-arrow-right"></i></button>
           </section>
-          <section id="section-six">
+
+          <!-- Section six - Reviews from clients -->
+          <section id="section-six" class="sect-slider">
             <h3>Reviews from our clients</h3>
+
+            <!-- Carousel container -->
             <div class="sect6-flex">
-              <div class="sect6-col">
+              <button class="imgbtn previous"><img src="./LP_images/imgprev.svg" alt="button"></button>
+              <button class="imgbtn next"><img src="./LP_images/imgnext.svg" alt="button"></button>
+
+              <!-- Image slider -->
+              <div class="slider-container">
+
+              <!-- Images -->
+              <div class="sect6-col imgstart">
                 <div class="sect6col-flex">
                 <img src="./LP_images/sect6_img.svg" alt="user" class="sect6-user">
                 <ol>
@@ -166,7 +201,40 @@
                 </ol>
               </div>
               <img src="./LP_images/icon_quote.svg" alt="quote" class="quote">
-              <p>30 projects with lots of branches under each. 50 running builds at the same time. We could not have survived without Tango.</p>
+              <p>30 projects with lots of branches under each. 50 running builds at the same time. We could not have survived without Combo.</p>
+      </div>
+      <div class="sect6-col mb-view">
+        <div class="sect6col-flex">
+        <img src="./LP_images/sect6_img2.svg" alt="user" class="sect6-user">
+        <ol>
+          <li>Blessing Nkechi</li>
+          <li>Product manager, GLB.</li>
+        </ol>
+      </div>
+      <img src="./LP_images/icon_quote.svg" alt="quote" class="quote">
+      <p>30 projects with lots of branches under each. 50 running builds at the same time. We could not have survived without Combo.</p>
+      </div>
+      <div class="sect6-col mb-view">
+        <div class="sect6col-flex">
+        <img src="./LP_images/sect6_img3.svg" alt="user" class="sect6-user">
+        <ol>
+          <li>Blessing Nkechi</li>
+          <li>Product manager, GLB.</li>
+        </ol>
+      </div>
+      <img src="./LP_images/icon_quote.svg" alt="quote" class="quote">
+      <p>30 projects with lots of branches under each. 50 running builds at the same time. We could not have survived without Combo.</p>
+      </div>
+      <div class="sect6-col mb-view">
+        <div class="sect6col-flex">
+        <img src="./LP_images/sect6_img4.svg" alt="user" class="sect6-user">
+        <ol>
+          <li>Blessing Nkechi</li>
+          <li>Product manager, GLB.</li>
+        </ol>
+      </div>
+      <img src="./LP_images/icon_quote.svg" alt="quote" class="quote">
+      <p>30 projects with lots of branches under each. 50 running builds at the same time. We could not have survived without Combo.</p>
       </div>
       <div class="sect6-col mb-view">
         <div class="sect6col-flex">
@@ -177,10 +245,46 @@
         </ol>
       </div>
       <img src="./LP_images/icon_quote.svg" alt="quote" class="quote">
-      <p>30 projects with lots of branches under each. 50 running builds at the same time. We could not have survived without Tango.</p>
+      <p>30 projects with lots of branches under each. 50 running builds at the same time. We could not have survived without Combo.</p>
+      </div>
+      <div class="sect6-col mb-view">
+        <div class="sect6col-flex">
+        <img src="./LP_images/sect6_img2.svg" alt="user" class="sect6-user">
+        <ol>
+          <li>Blessing Nkechi</li>
+          <li>Product manager, GLB.</li>
+        </ol>
+      </div>
+      <img src="./LP_images/icon_quote.svg" alt="quote" class="quote">
+      <p>30 projects with lots of branches under each. 50 running builds at the same time. We could not have survived without Combo.</p>
+      </div>
+      <div class="sect6-col mb-view">
+        <div class="sect6col-flex">
+        <img src="./LP_images/sect6_img3.svg" alt="user" class="sect6-user">
+        <ol>
+          <li>Blessing Nkechi</li>
+          <li>Product manager, GLB.</li>
+        </ol>
+      </div>
+      <img src="./LP_images/icon_quote.svg" alt="quote" class="quote">
+      <p>30 projects with lots of branches under each. 50 running builds at the same time. We could not have survived without Combo.</p>
+      </div>
+      <div class="sect6-col mb-view">
+        <div class="sect6col-flex">
+        <img src="./LP_images/sect6_img4.svg" alt="user" class="sect6-user">
+        <ol>
+          <li>Blessing Nkechi</li>
+          <li>Product manager, GLB.</li>
+        </ol>
+      </div>
+      <img src="./LP_images/icon_quote.svg" alt="quote" class="quote">
+      <p>30 projects with lots of branches under each. 50 running builds at the same time. We could not have survived without Combo.</p>
+      </div>
       </div>
             </div>
           </section>
+
+          <!-- Section seven - Call to action -->
           <section id="section-seven">
             <div class="sect-seven-container">
               <div class="sect-seven-cola">
@@ -193,6 +297,8 @@
                 </div>
           </section>
       </main>
+
+      <!-- Footer -->
       <footer>
         <section id="footer-sect">
           <img src="./LP_images/COMBO-logo.svg" alt="logo" class="footer-logo">
@@ -246,6 +352,8 @@
         <p>Copyright &copy; COMBO. All rights reserved. 2021</p>
        </div>
       </footer>
+
+      <!-- Javascript injection -->
       <script src="script.js"></script>
 </body>
 </html>

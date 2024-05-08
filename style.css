@@ -731,15 +731,18 @@ footer {
 /* Hero section animation */
 
 .animatehero {
-  animation: animeHero 0.4s ease-in;
+  animation: animeHero 0.6s ease-in;
 }
 
 @keyframes animeHero {
   0% {
-    transform: scale(1.06);
+    opacity: .9;
+    transform: scale(1.2);
+
   }
 
   100% {
+    opacity: 1;
     transform: scale(1);
   }
 }
@@ -747,15 +750,25 @@ footer {
 /* Section Animation */
 
 .animetest {
-  animation: test 15s ease-in-out infinite;
+  animation: rotateImage 15s ease-in-out infinite;
 }
 
-@keyframes test {
+@keyframes rotateImage {
   0% {
     transform: rotate(0deg);
   }
 
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes mobileNav {
+  0% {
+    transform: translateX(70px)
+  }
+
+  100% {
+    transform: translateX(0);
   }
 }
